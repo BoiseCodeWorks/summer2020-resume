@@ -1,0 +1,73 @@
+:root{
+  --primary: #d3ede0
+}
+
+/* *{
+  outline: 1px solid red;
+} */
+
+header{
+  height: 80px;
+  text-align: center;
+  font-family: "Tangerine";
+}
+body{
+  min-height: 100vh;
+}
+footer{
+  height: 80px;
+  text-align: center;
+  margin-top: 5rem;
+  border-top: 2px solid var(--primary);
+}
+
+main{
+margin: auto 100px;
+font-family: "Roboto Mono";
+}
+
+.bio, .education{
+  display: inline-block;
+  width: 49%;
+  text-align: left;
+}
+
+.list-spacer{
+  width: 70%;
+}
+
+.skills{
+  margin: 1em 3em;
+}
+
+.skills dl{
+  column-count: 2;
+}
+
+/* progress::-webkit-progress-value{
+background-color: coral;
+} */
+
+progress{
+  background-color: green;
+  float: right;
+  
+}
+
+.banner{
+  background: linear-gradient(to top, var(--primary) 60%, white 40%);
+  width: 90%;
+  margin: auto;
+}
+
+
+.inline-block{
+  display: inline-block;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+
